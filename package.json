@@ -38,7 +38,7 @@
     "gulp-ext-replace": "^0.3.0",
     "gulp-sass": "^4.0.1",
     "ionicons": "5.0.0",
-    "moment": "^2.23.0",
+    "moment": "^2.25.1",
     "ng-packagr": "^2.0.0",
     "npm-run-all": "^4.1.2",
     "rxjs": "6.3.3",
@@ -57,7 +57,7 @@
   "author": "HsuanLee",
   "license": "MIT",
   "peerDependencies": {
-    "moment": "^2.19.3"
+    "moment": "^2.25.1"
   },
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "ngPackage": {

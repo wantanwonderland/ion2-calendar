@@ -224,7 +224,7 @@ export class CalendarService {
     let _array: Array<CalendarMonth> = [];
 
     let _start = new Date(startTime);
-    let _startMonth = new Date(_start.getFullYear(), _start.getMonth(), 1).getTime();
+    let _startMonth = new Date(_start.getFullYear(), _start.getMonth(), 1);
 
     for (let i = 0; i < monthsNum; i++) {
       let time = moment(_startMonth)
